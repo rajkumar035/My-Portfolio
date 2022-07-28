@@ -1,0 +1,196 @@
+.specialization {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgba(0, 0, 0, 0.4);
+  margin: 4rem 0rem;
+  box-sizing: border-box;
+  box-shadow: 2px 2px 20px 10px rgba(255, 255, 255, 0.1);
+  border-radius: 40px;
+  padding: 6rem 4rem;
+  transition: all 0.6s ease;
+}
+.specialization:hover {
+  padding: 12rem 4rem;
+  background: #000000;
+}
+.Section-Content h3 {
+  font-size: 4rem;
+  padding: 0rem 0rem 3rem 0rem;
+  letter-spacing: 0.08rem;
+  font-weight: 800;
+  color: #ffffff;
+}
+.Section-Content h4 {
+  font-size: 2.2rem;
+  color: #ffffff;
+  font-weight: 700;
+  letter-spacing: 0.06rem;
+}
+.Section-Content h5 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  padding: 0rem 0rem 3rem 0rem;
+  letter-spacing: 0.06rem;
+  color: rgba(255, 255, 255, 0.8);
+}
+.Section-Content h6 {
+  font-size: 1rem;
+  padding: 0rem 0rem 3rem 0rem;
+  color: #ffffff;
+  font-weight: 500;
+  letter-spacing: 0.06rem;
+}
+.Section-Content button {
+  width: 120px;
+  padding: 0.8rem 1rem;
+  font-size: 1rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 30px;
+  background: white;
+  align-items: center;
+  box-shadow: 1px 1px 4px 0.1px #ffffff;
+  transition: all 0.5s ease;
+}
+.Section-Content button a {
+  justify-content: space-around;
+  color: black;
+  display: flex;
+  text-decoration: none;
+  align-items: center;
+}
+.Section-Content button:hover {
+  width: 160px;
+  border-radius: 30px;
+}
+.Section-Img {
+  margin: auto 0rem;
+}
+.Section-Img img {
+  height: 25rem;
+  width: auto;
+}
+@media (max-width: 1500px) {
+  .Section-Img img {
+    height: 20rem;
+  }
+  .Section-Content h3 {
+    font-size: 3.5rem;
+    padding: 0rem 0rem 2.5rem 0rem;
+  }
+  .Section-Content h4 {
+    font-size: 2rem;
+  }
+  .Section-Content h5 {
+    font-size: 1rem;
+    padding: 0rem 0rem 2.5rem 0rem;
+  }
+  .Section-Content h6 {
+    font-size: 0.9rem;
+    padding: 0rem 0rem 2.5rem 0rem;
+  }
+  .specialization:hover {
+    padding: 8rem 4rem;
+  }
+}
+@media (max-width: 1300px) {
+  .specialization {
+    padding: 3.6rem 2.6rem;
+  }
+  .Section-Img img {
+    height: 16rem;
+  }
+  .Section-Content h3 {
+    font-size: 2.8rem;
+  }
+  .Section-Content h4 {
+    font-size: 1.6rem;
+  }
+  .Section-Content h5 {
+    font-size: 1rem;
+  }
+  .Section-Content h6 {
+    font-size: 0.8rem;
+  }
+  .specialization:hover {
+    padding: 6rem 2.6rem;
+  }
+}
+@media (max-width: 1000px) {
+  .specialization {
+    padding: 3rem 2rem;
+    border-radius: 30px;
+    box-shadow: 2px 2px 20px 6px rgba(255, 255, 255, 0.1);
+  }
+  .Section-Img img {
+    height: 12rem;
+  }
+  .Section-Content h3 {
+    font-size: 2.4rem;
+  }
+  .Section-Content h4 {
+    font-size: 1.4rem;
+  }
+  .Section-Content h5 {
+    font-size: 0.9rem;
+  }
+  .Section-Content h6 {
+    font-size: 0.7rem;
+  }
+  .specialization:hover {
+    padding: 5rem 2rem;
+  }
+  .Section-Content button {
+    width: 80px;
+    padding: 0.6rem 0.8rem;
+    font-size: 0.8rem;
+    border-radius: 18px;
+  }
+  .Section-Content button:hover {
+    width: 100px;
+    border-radius: 18px;
+  }
+}
+@media (max-width: 750px) {
+  .specialization {
+    border-radius: 25px;
+  }
+  .Section-Img {
+    display: none;
+  }
+  .specialization:hover {
+    padding: 5rem 2rem;
+  }
+  .Section-Content h6 {
+    font-size: 0.75rem;
+  }
+  .Section-Content button:hover {
+    width: 100px;
+  }
+}
+@media (max-width: 400px) {
+  .specialization {
+    padding: 2rem 1.4rem;
+    box-shadow: none;
+    margin: 3rem 0rem;
+  }
+  .Section-Content h3 {
+    font-size: 1.8rem;
+    padding: 0rem 0rem 2rem 0rem;
+  }
+  .Section-Content h4 {
+    font-size: 1rem;
+  }
+  .Section-Content h5 {
+    font-size: 0.8rem;
+    padding: 0rem 0rem 2rem 0rem;
+  }
+  .Section-Content h6 {
+    font-size: 0.6rem;
+    padding: 0rem 0rem 2rem 0rem;
+    line-height: 15px;
+  }
+  .specialization:hover {
+    padding: 3rem 1.4rem;
+  }
+}

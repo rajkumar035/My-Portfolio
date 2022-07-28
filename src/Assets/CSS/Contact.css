@@ -1,0 +1,101 @@
+.contacts {
+  padding: 6rem 8rem;
+  background: #000000;
+}
+.contact-body {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 4rem 10rem;
+}
+.contact-body button {
+  height: 15rem;
+  width: 15rem;
+  padding: 1rem;
+  background: #000000;
+  border-radius: 2rem;
+  border: none;
+  box-shadow: 0px 0px 12px 12px rgba(255, 255, 255, 0.1);
+  transition: all 0.5s ease;
+}
+.contact-body button a {
+  text-decoration: none;
+}
+.contact-icons {
+  font-size: 4rem;
+  color: #ffffff;
+}
+.contact-body button a h4 {
+  font-size: 1.6rem;
+  font-weight: 600;
+  letter-spacing: 0.09em;
+  color: rgba(255, 255, 255, 1);
+  padding: 1.2rem 0rem 0rem 0rem;
+}
+.contact-body button a h6 {
+  font-size: 0.8rem;
+  font-weight: 500;
+  letter-spacing: 0.09em;
+  word-wrap: break-word;
+  color: rgba(255, 255, 255, 0.6);
+}
+.contact-body button:hover {
+  box-shadow: 0px 0px 15px 15px rgba(255, 255, 255, 0.3);
+}
+@media (max-width: 1000px) {
+  .contacts {
+    padding: 6rem 4rem;
+  }
+  .contact-body {
+    gap: 4rem 4rem;
+  }
+}
+@media (max-width: 600px) {
+  .contacts {
+    padding: 6rem 1rem;
+  }
+  .contact-body {
+    gap: 4rem 4rem;
+  }
+  .contact-body button {
+    height: 12rem;
+    width: 12rem;
+    padding: 1rem;
+  }
+  .contact-icons {
+    font-size: 2.5rem;
+  }
+  .contact-body button a h4 {
+    font-size: 1.4rem;
+  }
+  .contact-body button a h6 {
+    font-size: 0.7rem;
+  }
+}
+@media (max-width: 350px) {
+  .contacts {
+    padding: 6rem 1rem;
+  }
+  .contact-body {
+    gap: 4rem 4rem;
+  }
+  .contact-body button {
+    height: 12rem;
+    width: 12rem;
+    padding: 0.6rem;
+    box-shadow: 0px 0px 16px 6px rgba(255, 255, 255, 0.1);
+  }
+  .contact-icons {
+    font-size: 2.5rem;
+  }
+  .contact-body button a h4 {
+    font-size: 1.4rem;
+  }
+  .contact-body button a h6 {
+    font-size: 0.7rem;
+  }
+  .contact-body button:hover {
+    box-shadow: 0px 0px 16px 10px rgba(255, 255, 255, 0.2);
+  }
+}

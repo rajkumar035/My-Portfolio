@@ -1,0 +1,20 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  scroll-behavior: smooth;
+  font-family: 'Poppins', sans-serif;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+footer {
+  background: #0e0e10;
+  text-align: center;
+}
+.footer-touch {
+  padding: 1rem 0rem;
+  margin: 0rem;
+  font-size: medium;
+  font-weight: 400;
+  color: #ffffff;
+  letter-spacing: 0.06em;
+}

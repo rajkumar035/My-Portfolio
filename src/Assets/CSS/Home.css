@@ -1,0 +1,235 @@
+.home {
+  height: 90vh;
+  width: auto;
+  background: #1b1b1b;
+}
+.home-II {
+  padding: 0rem 8rem;
+  color: #ffffff;
+}
+.home-content {
+  margin: auto 0rem;
+}
+.Period {
+  padding-top: 3rem;
+  font-weight: 700;
+}
+.Time {
+  font-size: 2.5rem;
+  letter-spacing: 0.16em;
+}
+.Date {
+  font-size: 1rem;
+  letter-spacing: 0.2em;
+}
+.Intro-Content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 700;
+  font-size: 3.2rem;
+  letter-spacing: 0.09em;
+}
+.intro-img {
+  height: 35rem;
+  width: auto;
+  margin: 0rem 0rem 4rem 0rem;
+}
+.resume-button {
+  font-size: 1.1rem;
+  color: #ffffff;
+  background: transparent;
+  border: 2px solid #ffffff;
+  padding: 1.4rem;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  border-radius: 14px;
+  transition: all 0.4s ease;
+  margin: 4rem 0rem 0rem 0rem;
+}
+.resume-button:hover {
+  box-shadow: 1px 1px 30px 4px rgba(255, 255, 255, 0.4);
+  background: rgba(255, 255, 255, 0.9);
+  color: #1b1b1b;
+}
+.navigate {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  margin-top: 0rem;
+}
+.smart-navigate1,
+.smart-navigate2,
+.smart-navigate3,
+.smart-navigate4 {
+  position: fixed;
+  height: 1rem;
+  width: 1rem;
+  margin-left: 2.6rem;
+  border-radius: 50%;
+  background: transparent;
+  border: 2px solid white;
+  color: red;
+}
+.smart-navigate1 {
+  margin-top: 15rem;
+}
+.smart-navigate2 {
+  margin-top: 20.8rem;
+}
+.smart-navigate3 {
+  margin-top: 26.8rem;
+}
+.smart-navigate4 {
+  margin-top: 32.5rem;
+}
+.smart-navigate1:hover,
+.smart-navigate2:hover,
+.smart-navigate3:hover,
+.smart-navigate4:hover {
+  height: 1.4rem;
+  width: 1.4rem;
+  background: white;
+  transition: 0.5s;
+  margin-left: 2.5rem;
+}
+#light {
+  animation: changecolor infinite 2s alternate;
+}
+@keyframes changecolor {
+  0% {
+    fill: rgba(186, 253, 0, 0.973);
+  }
+  50% {
+    fill: rgba(138, 26, 26, 0.781);
+  }
+  100% {
+    fill: #1b1b1b;
+  }
+}
+#hand {
+  animation: updown infinite 0.6s alternate;
+}
+@keyframes updown {
+  0% {
+    transform: translateY(0%);
+  }
+  100% {
+    transform: translateY(-1%);
+  }
+}
+@media (max-width: 1600px) {
+  .Intro-Content {
+    font-size: 3rem;
+  }
+  .intro-img {
+    height: 30rem;
+    margin: 0rem 0rem 6rem 0rem;
+  }
+}
+@media (max-width: 1400px) {
+  .home-II {
+    padding: 0rem 4rem;
+  }
+  .smart-navigate1,
+  .smart-navigate2,
+  .smart-navigate3,
+  .smart-navigate4 {
+    margin-left: 1.5rem;
+  }
+  .smart-navigate1:hover,
+  .smart-navigate2:hover,
+  .smart-navigate3:hover,
+  .smart-navigate4:hover {
+    margin-left: 1.5rem;
+  }
+}
+@media (max-width: 1270px) {
+  .Intro-Content {
+    margin: 1.5rem 0rem;
+    font-size: 2.5rem;
+  }
+  .intro-img {
+    height: 22rem;
+    margin: 0rem 0rem 6rem 0rem;
+  }
+  .resume-button {
+    font-size: 0.9rem;
+    border: 2px solid #ffffff;
+    padding: 1rem;
+    margin: 4rem 0rem 0rem 0rem;
+  }
+}
+@media (max-width: 1000px) {
+  .home {
+    height: 100vh;
+  }
+  .home-II {
+    padding: 8rem 4rem;
+  }
+  .Time {
+    font-size: 2.2rem;
+  }
+  .Date {
+    font-size: 0.8rem;
+  }
+  .Intro-Content {
+    font-size: 2.2rem;
+  }
+  .intro-img {
+    height: 22rem;
+    margin: 0rem 0rem 6rem 0rem;
+  }
+  .navigate {
+    display: none;
+  }
+}
+@media (max-width: 920px) {
+  .Time {
+    font-size: 1.8rem;
+  }
+  .Date {
+    font-size: 0.8rem;
+  }
+  .Intro-Content {
+    font-size: 2rem;
+    margin: 4rem 0rem;
+  }
+  .intro-img {
+    height: 20rem;
+    margin: 0rem 0rem 6rem 0rem;
+  }
+}
+@media (max-width: 800px) {
+  .Intro-Content {
+    font-size: 2.5rem;
+    margin: 6rem 0rem;
+  }
+  .intro-img {
+    display: none;
+  }
+}
+@media (max-width: 600px) {
+  .home-II {
+    padding: 8rem 1rem;
+  }
+  .Intro-Content {
+    font-size: 2rem;
+    margin: 6rem 0rem;
+  }
+  .resume-button:hover {
+    box-shadow: 1px 1px 20px 2px rgba(255, 255, 255, 0.4);
+  }
+}
+@media (max-width: 600px) {
+  .Intro-Content {
+    font-size: 1.8rem;
+    margin: 8rem 0rem;
+  }
+  .resume-button {
+    font-size: 0.8rem;
+    border: 1px solid #ffffff;
+    padding: 1rem;
+    margin: 4rem 0rem 0rem 0rem;
+  }
+}

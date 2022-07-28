@@ -1,0 +1,56 @@
+.Fixed-area {
+  height: auto;
+  width: auto;
+  margin: 0rem;
+  padding: 1rem 8rem;
+  background: #1b1b1b;
+}
+.Fixed-bground {
+  background: url('../Fixed-Image2.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+}
+.Fixed-bground p {
+  font-weight: 700;
+  font-size: 4rem;
+  padding: 10rem 0rem;
+  line-height: 6rem;
+  text-align: center;
+  color: #ffffff;
+  margin: 0rem;
+  letter-spacing: 0.06em;
+}
+@media (max-width: 1200px) {
+  .Fixed-bground p {
+    padding: 8rem 0rem;
+    font-size: 3.4rem;
+  }
+}
+@media (max-width: 1000px) {
+  .Fixed-area {
+    padding: 1rem 4rem;
+  }
+  .Fixed-bground p {
+    padding: 6rem 0rem;
+    font-size: 3.2rem;
+  }
+}
+@media (max-width: 700px) {
+  .Fixed-bground p {
+    padding: 5rem 0rem;
+    font-size: 3rem;
+    line-height: 4rem;
+  }
+}
+@media (max-width: 600px) {
+  .Fixed-area {
+    padding: 1rem 0.8rem;
+  }
+}
+@media (max-width: 440px) {
+  .Fixed-bground p {
+    padding: 4rem 0rem;
+    font-size: 2.1rem;
+    line-height: 3rem;
+  }
+}
