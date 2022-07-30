@@ -39,7 +39,7 @@ const Home = ({ homeId }) => {
           </div>
           <div className='Intro-Content'>
             <div>
-              Nothing is impossible <br /> is depends on how you practice it
+              Nothing is impossible <br /> is depends on how you train
               <br />
               <a href='https://www.canva.com/design/DAE-oVx9tKY/ZZSz24PsuWj0BprfKe-0mA/view?utm_content=DAE-oVx9tKY&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton'>
                 <button className='resume-button'>Download Resume</button>
