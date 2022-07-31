@@ -20,6 +20,11 @@
   margin: 0rem;
   letter-spacing: 0.06em;
 }
+@media (max-width: 1400px) {
+  .Fixed-area {
+    padding: 1rem 4rem;
+  }
+}
 @media (max-width: 1200px) {
   .Fixed-bground p {
     padding: 8rem 0rem;
@@ -27,9 +32,6 @@
   }
 }
 @media (max-width: 1000px) {
-  .Fixed-area {
-    padding: 1rem 4rem;
-  }
   .Fixed-bground p {
     padding: 6rem 0rem;
     font-size: 3.2rem;

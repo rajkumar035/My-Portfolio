@@ -9,7 +9,7 @@ const Contact = ({ contactId }) => {
     <section id={contactId} className='contacts'>
       <div className='contact-body'>
         <button className='phone'>
-          <a href='9487544609'>
+          <a href='https://wa.me/9487544609?text=Hi!%0AI%20watched%20your%20portfolio%20website!'>
             <BsFillTelephoneFill className='contact-icons' />
             <br />
             <h4>Call</h4>
