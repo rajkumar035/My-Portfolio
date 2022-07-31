@@ -229,14 +229,23 @@
   }
 }
 @media (max-width: 400px) {
+  .Period {
+    padding-top: 0%;
+  }
+  .Time {
+    font-size: 1.6rem;
+  }
+  .Date {
+    font-size: 0.7rem;
+  }
   .Intro-Content {
-    font-size: 1.8rem;
-    margin: 8rem 0rem;
+    font-size: 1.6rem;
+    margin: 20% 0%;
   }
   .resume-button {
     font-size: 0.8rem;
     border: 1px solid #ffffff;
     padding: 1rem;
-    margin: 4rem 0rem 0rem 0rem;
+    margin: 10% 0% 0% 0%;
   }
 }
