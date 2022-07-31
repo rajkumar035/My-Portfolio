@@ -5,9 +5,7 @@ import profile from '../Assets/Profiles.jpeg';
 const About = ({ aboutId }) => {
   return (
     <section id={aboutId} className='About'>
-      <div className='Portfolio-Img'>
-        <img src={profile} alt='Portfolio' />
-      </div>
+      <img src={profile} alt='Portfolio' />
       <div className='About-Content'>
         <h3>About</h3>
         <h6>

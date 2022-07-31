@@ -1,5 +1,4 @@
 nav {
-  background: transparent;
   height: 8rem;
   width: 100%;
   background-color: #1b1b1b;
@@ -7,9 +6,9 @@ nav {
   transition: all 0.4s ease;
 }
 .brand {
-  height: 3.2rem;
+  height: 3rem;
   width: auto;
-  margin: 2rem 0rem;
+  margin: 2.4rem 0rem 0rem 0rem;
 }
 nav ul {
   list-style: none;
@@ -37,7 +36,6 @@ nav ul li a:hover {
 .checkbtn {
   float: right;
   font-size: 3rem;
-  line-height: 8rem;
   color: #ffffff;
   cursor: pointer;
   display: none;
@@ -52,7 +50,7 @@ nav ul li a:hover {
   .brand {
     height: 2.5rem;
     width: auto;
-    margin: 2.6rem 0rem;
+    margin: 2.6rem 0rem 0rem 0rem;
   }
   nav ul li a {
     margin: 0rem 1rem;
@@ -62,27 +60,29 @@ nav ul li a:hover {
 @media (max-width: 1000px) {
   nav {
     position: fixed;
-    height: 7rem;
+    height: 6rem;
+    background: transparent;
   }
   .brand {
-    margin: 2rem 0rem;
+    margin: 2rem 0rem 0rem 0rem;
   }
   .checkbtn {
     display: block;
-    line-height: 7rem;
+    margin: 1.5rem 0rem 0rem 0rem;
   }
   ul {
     position: fixed;
-    width: 100%;
+    width: 85%;
     height: 100vh;
-    background: #1b1b1b;
-    padding: 5rem 0rem 0rem 0rem;
+    background: rgba(27, 27, 27, 0.8);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     left: -100%;
-    text-align: center;
+    top: 0%;
     transition: all 0.4s ease;
-  }
-  nav ul li {
-    display: block;
+    padding: 3rem 0rem;
+    box-shadow: 0px 0px 30px 10px rgba(255, 255, 255, 0.2);
   }
   nav ul li a {
     font-size: 1.5rem;
@@ -98,21 +98,18 @@ nav ul li a:hover {
 @media (max-width: 600px) {
   nav {
     padding: 0rem 0.8rem;
-    height: 6rem;
+    height: 5rem;
   }
   .brand {
     height: 2rem;
     width: auto;
-    margin: 2rem 0rem;
+    margin: 1.5rem 0rem 0rem 0rem;
   }
   .checkbtn {
     float: right;
     font-size: 2rem;
     margin: 0rem 0rem;
-    line-height: 6rem;
-  }
-  ul {
-    padding: 5rem 0rem 0rem 0rem;
+    padding: 1.5rem 0rem 0rem 0rem;
   }
   nav ul li a {
     font-size: 1.2rem;
