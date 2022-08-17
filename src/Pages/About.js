@@ -1,6 +1,6 @@
 import React from 'react';
 import '../Assets/CSS/About.css';
-import profile from '../Assets/Profiles.jpeg';
+import profile from '../Assets/Profiles2.jpg';
 
 const About = ({ aboutId }) => {
   return (
@@ -9,10 +9,10 @@ const About = ({ aboutId }) => {
       <div className='About-Content'>
         <h3>About</h3>
         <h6>
-          Hi, Myself Rajkumar D. <br /> I was a 18 years old boy. I finished my
+          Hi, Myself Rajkumar D, an 18 years old boy. <br />I finished my
           Diploma in Computer Engineering at PSG Polytechnic College. I was
           specialized in front-end development and having a knowledge in data
-          analysis and now working as a web developer.
+          analysis & machine learning.
         </h6>
       </div>
     </section>
