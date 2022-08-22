@@ -25,7 +25,7 @@ const Contact = ({ contactId }) => {
           </a>
         </button>
         <button className='linked-in'>
-          <a href='https://www.linkedin.com/in/raj-kumar-d-4843a522b/'>
+          <a href='https://www.linkedin.com/in/rajkumar-dhandapani-4843a522b/'>
             <FaLinkedinIn className='contact-icons' />
             <br />
             <h4>Linked In</h4>
