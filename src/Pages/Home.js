@@ -1,5 +1,6 @@
 import React from 'react';
 import '../Assets/CSS/Home.css';
+import resume from '../Assets/Resume.pdf';
 
 const Home = ({ homeId }) => {
   const Days = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
@@ -41,7 +42,7 @@ const Home = ({ homeId }) => {
             <div>
               Nothing is impossible <br /> is depends on how you practice it
               <br />
-              <a href='https://www.canva.com/design/DAE-oVx9tKY/ZZSz24PsuWj0BprfKe-0mA/view?utm_content=DAE-oVx9tKY&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton'>
+              <a href={resume}>
                 <button className='resume-button'>Download Resume</button>
               </a>
             </div>
